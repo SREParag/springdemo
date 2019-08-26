@@ -1,0 +1,29 @@
+
+<header class="spark-header spark-header--condensed">
+	<nav class="spark-header__nav" role="navigation">
+		<span class="spark-header__logo"><i class="spark-logo spark-logo--sabre spark-logo--sm"></i></span>
+		<a href="/home" class="spark-header__title">Demo</a>
+		<div class="spark-menu spark-header__menu">
+			<ul class="spark-menu__list spark-menu__list--main spark-header__list spark-header__list--overflow">
+				<li class="spark-menu__list-item">
+					<a href="#" class="spark-menu__list-link">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+		<div class="spark-header__sign-in spark-popover">
+			<a href="/logout" class="spark-menu__list-link spark-popover__toggle">Sign out</a>
+		</div>
+	</nav>
+</header>
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var header = document.querySelectorAll('.spark-header');
+		for(var i = 0, len = header.length; i < len; i++) {
+			new Spark.Header(header[i]);
+		}
+		var expands = document.querySelectorAll('.spark-expand, .spark-panel--expand');
+		for(var i = 0, len = expands.length; i < len; i++) {
+			new Spark.Expand(expands[i]);
+		}
+	});
+</script>

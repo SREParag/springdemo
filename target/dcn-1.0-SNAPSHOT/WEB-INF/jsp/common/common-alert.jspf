@@ -1,0 +1,48 @@
+<button  style="display:none" id="success-message-modal-button" data-modal="#success-message-modal" class="spark-btn spark-btn--md">Success Modal</button>
+<div class="spark-modal" id="success-message-modal">
+    <div class="spark-modal__scroll">
+        <div class="spark-modal__content col-xs-12 col-sm-10 col-md-7 col-lg-6 col-xl-5">
+            <div class="spark-modal__body">
+                <a tabindex="0" class="spark-modal__close spark-icon-close" title="Close Modal"></a>
+                <div class="spark-message spark-message--lg spark-message--success spark-mar-b-1">
+                    <i class="spark-message__icon spark-icon-check spark-icon--fill"></i>
+                    <div class="spark-message__content">
+                        <h4 class="spark-message__heading">
+
+                        </h4>
+
+                        <div class="spark-margin-top row">
+                            <div class="col-xs-12 col-md-12" id="success-content-container">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="spark-btn-group spark-mar-t-2">
+                    <button class="spark-btn spark-btn--md spark-btn--secondary spark-modal__dismiss spark-btn-group-secondary" id="close-success_modal">Close</button>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button  style="display:none;" id="error-message-modal-button" data-modal="#error-message-modal" class="spark-btn spark-btn--md">Error Modal</button>
+<div class="spark-modal" id="error-message-modal">
+    <div class="spark-modal__scroll">
+        <div class="spark-modal__content col-xs-12 col-sm-10 col-md-7 col-lg-6 col-xl-5">
+            <div class="spark-modal__body">
+                <a tabindex="0" class="spark-modal__close spark-icon-close" title="Close Modal"></a>
+                <div class="spark-message spark-message--lg spark-message--error spark-mar-b-1">
+                    <i class="spark-message__icon spark-icon-info-circle spark-icon--fill"></i>
+                    <div class="spark-message__content">
+                        <h4 class="spark-message__heading">
+
+                        </h4>
+                    </div>
+                </div>
+                <nav class="spark-btn-group spark-mar-t-2">
+                    <button class="spark-btn spark-btn--md spark-btn--secondary spark-modal__dismiss spark-btn-group-secondary">Close</button>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>

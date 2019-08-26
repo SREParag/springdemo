@@ -1,0 +1,121 @@
+<style type="text/css">
+
+
+    .spark-input[data-error] .spark-input__message, [data-error][class*=spark-payment] .spark-input__message {
+        background-color: #ac0000;
+        color: #fff;
+    }
+
+    .spark-input[data-error] .spark-input__message, .spark-input[data-info] .spark-input__message, .spark-input[data-success] .spark-input__message, .spark-input[data-warning] .spark-input__message, [data-error][class*=spark-payment] .spark-input__message, [data-info][class*=spark-payment] .spark-input__message, [data-success][class*=spark-payment] .spark-input__message, [data-warning][class*=spark-payment] .spark-input__message {
+        display: block;
+    }
+
+    .spark-checkbox-group__message, .spark-input__message, .spark-number-selector .spark-input__message, .spark-radio-group__message, .spark-select__message {
+        border-radius: 0 0 .25rem .25rem;
+        box-sizing: border-box;
+        color: #fff;
+        display: none;
+        font-size: 1.33333333rem;
+        font-weight: 700;
+        padding: .75rem 1rem;
+        position: relative;
+        -webkit-transform-origin: top center;
+        transform-origin: top center;
+        transition-delay: 0s, 0s, 0s;
+        transition-duration: .2s;
+        transition-property: background-color, color;
+        transition-timing-function: linear, cubic-bezier(.86, 0, .07, 1), cubic-bezier(.86, 0, .07, 1);
+        z-index: 0;
+        width: 100%;
+    }
+
+    .error-show {
+        background: #AC0000;
+        display: block;
+    }
+
+    .error-hide {
+        display: none;
+    }
+
+    #overlay {
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 100%; /* Full width (cover the whole page) */
+        height: 100%; /* Full height (cover the whole page) */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+        z-index: 99999999; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .spark-splash-screen__content {
+        background: #4A5767 !important;
+    }
+    .dt-panelmenu.clearfix{
+        display: inline-block;
+        margin-bottom: 5px;
+        float: right
+    }
+
+    div.dataTables_wrapper.form-inline > div > div {
+        float:right;
+    }
+    .spark-table table{
+        margin-bottom: 1rem;
+        width: 100% !important;
+    }
+
+    .ui-autocomplete {
+        z-index: 99999999 !important;
+    }
+
+    .ui-widget-content {
+        z-index: 99999 !important;
+        background: #fff !important;
+    }
+
+
+    .dataTables_empty {
+        text-align: center;
+    }
+
+    .ui-autocomplete li {
+        list-style: none;
+    }
+
+    input#userName-tokenfield {
+        width: 100% !important;
+    }
+
+
+    .dataTables_info {
+        position: relative;
+        margin: 0px !important;
+    }
+    .spark-menu__list-link {
+        text-decoration: none !important;
+    }
+
+    .dataTables_filter .spark-input__field {
+        height: 3rem;
+    }
+
+    .spark-toolbar .spark-toolbar__container--visible{
+        width: auto;
+    }
+
+    .spark-tabs__panel{
+        padding: 2rem;
+    }
+    .spark-opacity{
+        opacity: 0;
+    }
+</style>

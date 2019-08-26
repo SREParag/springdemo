@@ -1,0 +1,16 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
+<html>
+
+<head>
+<title>Hello Example</title>
+	<link rel="stylesheet" href="/global/vendor/bootstrap-tokenfield/bootstrap-tokenfield.min.css " type="text/css" />
+	<link rel="stylesheet" href="/global/vendor/jquery-ui/jquery-ui.css " type="text/css"/>
+	<link rel="stylesheet" href="/dist/css/main.css" type="text/css"/>
+	<link rel="stylesheet" href="/dist/css/spark.light-v3.min.css" type="text/css"/>
+	<%@ include file="../common/common-css.jspf" %>
+</head>
+
+
